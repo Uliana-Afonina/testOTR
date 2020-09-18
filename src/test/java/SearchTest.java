@@ -18,6 +18,7 @@ public class SearchTest {
         //установить размер окна браузера на максимальный
         Configuration.startMaximized = true;
         Configuration.browser = CHROME;
+        //открываем браузер гугл-хром
         Selenide.open(SearchPage.url);
         Logger.info("Открыт браузер");
         searchPage.linkMarketClick();

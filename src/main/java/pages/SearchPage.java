@@ -15,9 +15,13 @@ public class SearchPage {
 
 
     public static String url = "https://yandex.ru/";
+    //элемент "Маркет"
     public SelenideElement linkMarket = $("[data-id='market']");
+    //элемент текстбокс для поиска
     public SelenideElement headerSearch = $("[type=text]#header-search");
+    //кнопка "найти"
     public SelenideElement searchButton = $("._1XiEJDPVpk");
+    //чек-бокс
     public SelenideElement checkBox = $(".NVoaOvqe58");
 
     //установка чек-бокса
